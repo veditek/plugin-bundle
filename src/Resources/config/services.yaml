@@ -1,0 +1,7 @@
+services:
+  _instanceof:
+    Vchain\PluginBundle\Interfaces\PluginInterface:
+      tags:
+        - !php/const Vchain\PluginBundle\Interfaces\PluginInterface::TAG
+  Vchain\PluginBundle\Service\Plugin:
+    autoconfigure: true
