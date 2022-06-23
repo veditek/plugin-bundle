@@ -17,9 +17,9 @@ class Plugin
     public function getTypes(): array
     {
         $result = [];
-        foreach ($this->pluginServices as $type) {
+        foreach ($this->pluginServices as $typename => $type) {
             foreach ($type as $subtype) {
-                $result[$type][] = $subtype;
+                $result[$typename][] = $subtype;
             }
         }
         return $result;
