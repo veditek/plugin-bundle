@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "description": "Plugin services loader",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
